@@ -1,12 +1,15 @@
 import Hero from "./components/Hero";
-import Navbar from "./components/navbar";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <div className="w-[95%] mx-auto ">
+    <>
       <Navbar />
-      <Hero />
-    </div>
+
+      <div className="w-[95%] mx-auto ">
+        <Hero />
+      </div>
+    </>
   );
 }
 

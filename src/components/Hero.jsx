@@ -4,23 +4,33 @@ import SmallImage from "..//assets/images/Small.jpg";
 import { IoTriangle } from "react-icons/io5";
 import Button from "./Button";
 import Wrapper from "./wrapper";
+import { FaArrowRightLong } from "react-icons/fa6";
 const Hero = () => {
   return (
     <div
       className="w-full h-[750px] sm:min-h-[500px] bg-cover bg-center rounded-xl flex flex-col justify-end py-3 pl-3  "
       style={{ backgroundImage: `url(${Image})` }}
     >
-      <div className=" grid grid-cols-1 md:grid-cols-2  w-[85%]  gap-5">
+      <div className="grid place-items-center  w-full h-full">
+        <h1 className=" md:text-[75px] text-[40px] overflow-hidden text-white font-bold lg:text-[125px] ">
+          Contemporary
+        </h1>
+      </div>
+
+      <div className=" grid grid-cols-1 md:grid-cols-2  w-[85%] gap-x-6 gap-6">
         <Wrapper width="" height={250} className="flex-1">
           <p className=" h-[50px] text-xl">
             Elevate your interiors with a seamless blend of modern aesthetics
             and functional design.
           </p>
+          <Button width="150px">
+            <p>View More</p>
+            <FaArrowRightLong />
+          </Button>
         </Wrapper>
         <Wrapper
           className="flex-1 md:w-[350px] "
           isImageContain={true}
-          width=""
           height={250}
         >
           <div className="w-full h-full ">
