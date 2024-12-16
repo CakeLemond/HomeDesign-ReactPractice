@@ -1,6 +1,6 @@
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
-
+import Section1 from "./components/Section1";
 function App() {
   return (
     <>
@@ -8,6 +8,7 @@ function App() {
 
       <div className="w-[95%] mx-auto ">
         <Hero />
+        <Section1 />
       </div>
     </>
   );

@@ -8,7 +8,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 const Hero = () => {
   return (
     <div
-      className="w-full h-[750px] sm:min-h-[500px] bg-cover bg-center rounded-xl flex flex-col justify-end py-3 pl-3  "
+      className="w-full h-[750px] sm:min-h-[500px] bg-cover bg-center rounded-xl flex flex-col justify-end py-3 pl-3 mb-[60px] "
       style={{ backgroundImage: `url(${Image})` }}
     >
       <div className="grid place-items-center  w-full h-full">
@@ -23,7 +23,7 @@ const Hero = () => {
             Elevate your interiors with a seamless blend of modern aesthetics
             and functional design.
           </p>
-          <Button width="150px">
+          <Button white bg width="150px">
             <p>View More</p>
             <FaArrowRightLong />
           </Button>
