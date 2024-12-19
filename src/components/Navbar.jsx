@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <>
-      <header className="my-3 sticky top-0 w-[95%] mx-auto  ">
+      <header className="my-3 sticky top-0 w-[95%] mx-auto bg-white z-20  ">
         <nav className="flex  justify-between items-center ">
           <div className="left-side">
             <h1 className="text-5xl font-bold font-poppins">Alinea</h1>

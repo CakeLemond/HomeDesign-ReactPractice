@@ -1,6 +1,7 @@
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Section1 from "./components/Section1";
+import Section2 from "./components/Section2";
 function App() {
   return (
     <>
@@ -10,6 +11,7 @@ function App() {
         <Hero />
         <Section1 />
       </div>
+      <Section2 />
     </>
   );
 }

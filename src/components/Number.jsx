@@ -6,7 +6,7 @@ const Number = ({ children, top, description }) => {
   const FirstSign = ({ children }) => (
     <p className="text-4xl ">
       {children}
-      <sup clas>st</sup>
+      <sup>st</sup>
     </p>
   );
 
