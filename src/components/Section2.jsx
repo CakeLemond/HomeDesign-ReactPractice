@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "..//assets/images/Section3.jpg";
 import Button from "./Button";
+
 import { FaArrowRightLong } from "react-icons/fa6";
 
 const Section2 = () => {
