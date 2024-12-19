@@ -2,15 +2,15 @@ import React from "react";
 
 const Card = ({ children, extraClasses, width, height, image }) => {
   const style = {
-    ...(width ? { width } : {}),
-    ...(height ? { height } : {}),
     ...(image ? { backgroundImage: `url(${image})` } : {}),
   };
+  const widthClass = width ? `w-[${width}]` : "w-full";
+  const heightClass = height ? `h-[${height}]` : "h-full";
   return (
     <div
-      className={`rounded-lg bg-cover mx-auto mb-10  ${
-        !width ? "w-[100%]" : ""
-      } ${extraClasses || ""} bg-red-300`}
+      className={`rounded-lg bg-cover mx-auto   ${widthClass} ${heightClass}${
+        extraClasses || ""
+      }`}
       style={style}
     >
       {children}

@@ -9,6 +9,13 @@ export default {
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
       },
+      colors : {
+      LightBeige : "#F0E9E3",
+
+      },
+      screens: {
+        xs: '360px'
+       }
     },
   },
   plugins: [],
