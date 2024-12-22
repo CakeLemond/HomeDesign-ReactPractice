@@ -5,8 +5,8 @@ const menu = ({ Opened }) => {
 
   return (
     <div
-      className={` absolute top-16  w-full h-56   bg-white shadow-lg border ${
-        Opened ? "grid" : "hidden"
+      className={` sticky  top-16  w-full h-56   bg-white shadow-lg border z-20  ${
+        Opened ? `grid ` : "hidden"
       }  place-items-left p-6 `}
     >
       <ul className=" flex justify-between flex-col gap-6">

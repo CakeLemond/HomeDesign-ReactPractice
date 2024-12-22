@@ -1,9 +1,35 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Divide as Hamburger } from "hamburger-react";
 import Menu from "./menu";
 const Navbar = () => {
   const LinkArrays = ["Product", "Lifestyle", "News", "Project"];
   const [IsOpen, SetIsOpen] = useState(false);
+  const [IsScrolled, SetScrolled] = useState(false);
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        SetScrolled(true);
+      } else {
+        SetScrolled(false);
+      }
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (IsOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+
+    return () => {
+      document.body.style.overflow = "auto";
+    };
+  }, [IsOpen]);
 
   const ToggleMenu = () => {
     SetIsOpen((prevState) => !prevState);
@@ -11,7 +37,11 @@ const Navbar = () => {
 
   return (
     <>
-      <header className="my-3 sticky top-0 w-[95%] mx-auto bg-white z-20  ">
+      <header
+        className={`my-3 sticky top-0  mx-auto px-6 transition-all w-full duration-300 ease z-20  bg-white  ${
+          IsScrolled ? "  py-4  shadow-lg" : ""
+        } `}
+      >
         <nav className="flex  justify-between items-center ">
           <div className="left-side">
             <h1 className="text-5xl font-bold font-poppins">Alinea</h1>
