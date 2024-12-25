@@ -13,7 +13,7 @@ const BentoCard = ({ children, width, height, image, extraClass }) => {
       }`}
       style={style}
     >
-      <div className="w-full h-[150px] sm:h-full">
+      <div className="w-full h-full ">
         <img
           className="w-full h-full rounded-md brightness-50 object-cover object-center"
           src={image}

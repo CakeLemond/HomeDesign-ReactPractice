@@ -4,7 +4,7 @@ import BgImage from "..//assets/images/Section2Bed.jpg";
 import Button from "./Button";
 import BgImage2 from "..//assets/images/Section2Dark.jpg";
 import CircleCom from "./CircleCom";
-import Number from "./number";
+import Number from "./Number";
 
 const Section1 = () => {
   return (
@@ -26,7 +26,7 @@ const Section1 = () => {
           </div>
         </Card>
         <div className="h-full  flex flex-col gap-6 ">
-          <div className="h-auto bg-LightBeige flex flex-col py-6 px-6 rounded-lg">
+          <div className="h-auto bg-LightBeige flex flex-col py-6 px-6 rounded-lg xs:items-start items-center text-center xs:text-left gap-3">
             <Button center MoreClasses={"  text-lg "} width={130}>
               Aesthetic
             </Button>

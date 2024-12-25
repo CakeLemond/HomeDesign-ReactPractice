@@ -18,8 +18,8 @@ const Hero = () => {
       </div>
 
       <div className=" grid grid-cols-1 md:grid-cols-2  w-[85%] gap-x-6 gap-6">
-        <Wrapper width="" height={250} className="flex-1">
-          <p className=" h-[50px] text-xl">
+        <Wrapper width="" height={250}>
+          <p className=" h-auto text-xl xs:text-2xl">
             Elevate your interiors with a seamless blend of modern aesthetics
             and functional design.
           </p>
