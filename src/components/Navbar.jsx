@@ -38,8 +38,8 @@ const Navbar = () => {
   return (
     <>
       <header
-        className={`my-3 sticky top-0  mx-auto px-6 transition-all w-full duration-300 ease z-20  bg-white  ${
-          IsScrolled ? "    shadow-lg" : ""
+        className={`my-3 sticky top-0 max-w-screen-2xl  mx-auto px-6 transition-all w-full duration-300 ease z-20  bg-white  ${
+          IsScrolled ? "  bg-opacity-50 backdrop-blur py-3  shadow-lg" : ""
         } `}
       >
         <nav className="flex  justify-between items-center ">

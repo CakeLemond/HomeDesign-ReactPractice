@@ -29,11 +29,10 @@ function App() {
   }, []);
   return (
     <>
+      <Navbar />
+
       <div className="flex flex-col gap-14 w-full max-w-screen-2xl mx-auto">
-        <div className="w-full">
-          <Navbar />
-          <Hero />
-        </div>
+        <Hero />
 
         <Section1 />
 

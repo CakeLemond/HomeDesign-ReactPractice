@@ -24,12 +24,8 @@ const Section1 = () => {
             </h3>
           </div>
         </Card>
-        <div className="h-full flex flex-col gap-6 ">
-          <Card
-            extraClasses={
-              "  gap-3 pl-6 flex flex-col py-6 justify-center h-auto bg-LightBeige"
-            }
-          >
+        <div className="h-full  flex flex-col gap-6 ">
+          <div className="h-auto bg-LightBeige flex flex-col py-6 px-6 rounded-lg">
             <Button center MoreClasses={"  text-lg "} width={130}>
               Aesthetic
             </Button>
@@ -40,7 +36,8 @@ const Section1 = () => {
             <h3 className="text-[30px] sm:text-[45px] font-semibold w-[75%] leading-tight ">
               Into a gallery of elegance
             </h3>
-          </Card>
+          </div>
+
           <Card extraClasses={"h-[150px] lg:h-[55%] p-6"} image={BgImage2}>
             <div className="h-[300px] lg:h-full flex flex-col relative">
               <div>
