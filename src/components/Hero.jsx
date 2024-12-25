@@ -8,7 +8,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 const Hero = () => {
   return (
     <div
-      className="w-full h-[750px] sm:min-h-[500px] bg-cover bg-center rounded-xl flex flex-col justify-end py-3 pl-3 mb-[60px] "
+      className="h-[750px] sm:min-h-[500px] bg-cover bg-center rounded-xl flex flex-col justify-end py-3 pl-3 w-[95%] mx-auto"
       style={{ backgroundImage: `url(${Image})` }}
     >
       <div className="grid place-items-center  w-full h-full">

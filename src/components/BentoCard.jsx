@@ -8,13 +8,13 @@ const BentoCard = ({ children, width, height, image, extraClass }) => {
   };
   return (
     <div
-      className={`flex items-end justify-between rounded-md  relative md:h-[300px] lg:h-full h-[200px] w-full   ${
+      className={`flex items-end justify-between rounded-md  relative md:h-[18.75rem] lg:h-full h-36 w-full   ${
         extraClass || ""
       }`}
       style={style}
     >
       <img
-        className="w-full h-full rounded-md brightness-50 object-cover"
+        className="w-full h-full rounded-md brightness-50 object-cover object-center"
         src={image}
         alt=""
       />

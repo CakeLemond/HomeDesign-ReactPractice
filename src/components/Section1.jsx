@@ -8,11 +8,11 @@ import Number from "./number";
 const Section1 = () => {
   return (
     <>
-      <div className="flex flex-col gap-5 lg:flex-row lg:h-screen gap-x-6 ">
+      <div className="flex flex-col gap-6 lg:flex-row lg:h-screen lg:max-h-[750px]   gap-x-6 w-[95%]  mx-auto ">
         <Card
           image={BgImage}
           extraClasses={
-            "flex flex-col justify-end item-center pl-6 pb-10 lg:h-full h-[500px]  "
+            "flex flex-col justify-end item-center pl-6 pb-10 lg:h-full h-[350px]   "
           }
         >
           <div className="h-full w-full flex flex-col justify-end items-center xs:items-start">
@@ -27,7 +27,7 @@ const Section1 = () => {
         <div className="h-full flex flex-col gap-6 ">
           <Card
             extraClasses={
-              "  gap-3 pl-6 flex flex-col py-6 justify-center lg:h-[45%] bg-LightBeige"
+              "  gap-3 pl-6 flex flex-col py-6 justify-center h-auto bg-LightBeige"
             }
           >
             <Button center MoreClasses={"  text-lg "} width={130}>
@@ -41,13 +41,13 @@ const Section1 = () => {
               Into a gallery of elegance
             </h3>
           </Card>
-          <Card extraClasses={"h-[250px] lg:h-[55%] p-6"} image={BgImage2}>
-            <div className="h-[400px] lg:h-full flex flex-col relative">
+          <Card extraClasses={"h-[150px] lg:h-[55%] p-6"} image={BgImage2}>
+            <div className="h-[300px] lg:h-full flex flex-col relative">
               <div>
                 <Button center white width={150}>
                   <p className="text-white text-lg ">Best Furniture</p>
                 </Button>
-                <p className="lg:text-3xl sm:w-[90%] md:text-5xl mt-4 text-white w-[300px] text-2xl sm:text-3xl">
+                <p className="lg:text-3xl sm:w-[90%] md:text-5xl mt-4 text-white xs:w-[300px]  text-2xl sm:text-3xl overflow-hidden">
                   Crafting spaces where less truly becomes more.
                 </p>
               </div>

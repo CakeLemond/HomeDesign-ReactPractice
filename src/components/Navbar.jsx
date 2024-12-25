@@ -39,7 +39,7 @@ const Navbar = () => {
     <>
       <header
         className={`my-3 sticky top-0  mx-auto px-6 transition-all w-full duration-300 ease z-20  bg-white  ${
-          IsScrolled ? "  py-4  shadow-lg" : ""
+          IsScrolled ? "    shadow-lg" : ""
         } `}
       >
         <nav className="flex  justify-between items-center ">

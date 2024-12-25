@@ -6,7 +6,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const Section2 = () => {
   return (
-    <div className=" w-full mt-40 bg-LightBeige p-10">
+    <div className=" w-full  bg-LightBeige p-10">
       <div className="h-full w-full lg:flex mb-10 ">
         <div className="w-full h-[350px] lg:h-[500px] lg:w-[60%]">
           <img
