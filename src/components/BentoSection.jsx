@@ -10,7 +10,7 @@ import CircleCom from "./CircleCom";
 
 const BentoSection = () => {
   return (
-    <div className="  overflow-auto grid  w-[100%] p-6  lg:h-[125vh] lg:max-h-[1000px] h-[200vh] lg:grid-cols-3 lg:grid-rows-3 md:grid-cols-2 md:grid-row-4 mx-auto  gap-6  ">
+    <div className="  overflow-auto grid  w-[100%] p-6  lg:h-[125vh] lg:max-h-[1000px] h-[200vh] lg:grid-cols-3 lg:grid-rows-3 md:grid-cols-2 md:grid-row-4 mx-auto   gap-6  ">
       <BentoCard extraClass={"lg:col-span-2 "} image={Bento3}>
         Nirnia
       </BentoCard>

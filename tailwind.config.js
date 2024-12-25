@@ -11,12 +11,11 @@ export default {
       },
       colors : {
       LightBeige : "#F0E9E3",
-  
-
       },
       screens: {
         xs: '360px'
-       }
+       },
+       
     },
   },
   plugins: [],

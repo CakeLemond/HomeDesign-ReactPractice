@@ -1,3 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.parent:hover .circle-animation {
+  stroke-dashoffset: 0; /* Make the stroke appear to be drawn */
+}

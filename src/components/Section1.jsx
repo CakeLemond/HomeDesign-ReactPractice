@@ -5,6 +5,7 @@ import Button from "./Button";
 import BgImage2 from "..//assets/images/Section2Dark.jpg";
 import CircleCom from "./CircleCom";
 import Number from "./number";
+
 const Section1 = () => {
   return (
     <>
@@ -54,11 +55,12 @@ const Section1 = () => {
         </div>
       </div>
       <div className="my-20 grid grid-flow-row gap-16 xs:grid-cols-2 lg:flex lg:justify-between lg:items-center w-[85%] items-center justify-center mx-auto">
-        <Number description="Products">500</Number>
-        <Number description="Project">20</Number>
-        <Number description="Satisfied Customers">85</Number>
-
-        <Number description="Top 1 in Montreal" top></Number>
+        <Number description="Products" number={500}></Number>
+        <Number description="Project" number={20}></Number>
+        <Number description="Satisfied Customers" number={85}></Number>
+        <Number description="Top 1 in Montreal" top>
+          1
+        </Number>
       </div>
     </>
   );
