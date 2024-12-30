@@ -72,7 +72,7 @@ const Footer = () => {
                 {item.description.map((stuff, index) => (
                   <li className="" key={index}>
                     <a
-                      className="text-lg font-light text-gray-400"
+                      className=" transition-all duration-300 text-lg font-light text-gray-400 hover:text-white"
                       href={`/${stuff.toLowerCase()}`}
                     >
                       {stuff}

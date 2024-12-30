@@ -4,3 +4,7 @@
 .parent:hover .circle-animation {
   stroke-dashoffset: 0; /* Make the stroke appear to be drawn */
 }
+
+.LinkParent:hover .Transform-anime {
+  transform: translateY(-300px);
+}
