@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import footer from "../assets/images/Footer.jpg";
+import footer from "../assets/RezisedImg/Footer.jpg";
 import Accordion from "./Accordion";
 
 const Footer = () => {

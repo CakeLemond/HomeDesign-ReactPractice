@@ -1,8 +1,8 @@
 import React from "react";
 import Card from "./Card";
-import BgImage from "..//assets/images/Section2Bed.jpg";
+import BgImage from "..//assets/RezisedImg/Section2Bed.jpg";
 import Button from "./Button";
-import BgImage2 from "..//assets/images/Section2Dark.jpg";
+import BgImage2 from "..//assets/RezisedImg/Section2Dark.jpg";
 import CircleCom from "./CircleCom";
 import Number from "./Number";
 

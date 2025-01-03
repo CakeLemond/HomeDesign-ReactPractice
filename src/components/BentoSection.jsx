@@ -1,11 +1,11 @@
 import React from "react";
 import BentoCard from "./BentoCard";
-import Bento1 from "../assets/images/bento1.jpg";
-import Bento2 from "../assets/images/bento2.jpg";
-import Bento3 from "../assets/images/bento3.jpg";
-import Bento4 from "../assets/images/Bento4.jpg";
-import Bento5 from "../assets/images/bento5.jpg";
-import Bento6 from "../assets/images/bento6.jpg";
+import Bento1 from "../assets/RezisedImg/bento1.jpg";
+import Bento2 from "../assets/RezisedImg/bento2.jpg";
+import Bento3 from "../assets/RezisedImg/bento3.jpg";
+import Bento4 from "../assets/RezisedImg/Bento4.jpg";
+import Bento5 from "../assets/RezisedImg/bento5.jpg";
+import Bento6 from "../assets/RezisedImg/bento6.jpg";
 
 const BentoSection = () => {
   return (

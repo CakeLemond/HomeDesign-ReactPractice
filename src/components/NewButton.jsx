@@ -1,13 +1,33 @@
 import React from "react";
-
+import { motion } from "framer-motion";
 const NewButton = () => {
   return (
-    <button class="group/button relative inline-flex items-center justify-center overflow-hidden rounded-md bg-gray-800/30 backdrop-blur-lg px-6 py-2 text-base font-semibold text-white transition-all duration-300 ease-in-out hover:scale-110 hover:shadow-xl hover:shadow-gray-600/50 border border-white/20">
-      <span class="text-lg">Shimmer</span>
-      <div class="absolute inset-0 flex h-full w-full justify-center [transform:skew(-13deg)_translateX(-100%)] group-hover/button:duration-1000 group-hover/button:[transform:skew(-13deg)_translateX(100%)]">
-        <div class="relative h-full w-10 bg-white/20"></div>
-      </div>
-    </button>
+    <motion.button
+      initial={{ "--x": "100%", scale: 1 }}
+      animate={{ "--x": "-100%" }}
+      whileTap={{ scale: 0.97 }}
+      transition={{
+        repeat: Infinity,
+        repeatType: "loop",
+        repeatDelay: 1,
+        type: "spring",
+        stiffness: 20,
+        damping: 15,
+        mass: 2,
+        scale: {
+          type: "spring",
+          stiffness: 10,
+          damping: 5,
+          mass: 0.1,
+        },
+      }}
+      className="px-6 py-3 rounded-md w-1/2 relative radial-gradient"
+    >
+      <span className="text-neutral-100 tracking-wide font-light h-full w-full block relative linear-mask text-lg">
+        View more
+      </span>
+      <span className="block absolute inset-0 rounded-md p-px linear-overlay" />
+    </motion.button>
   );
 };
 

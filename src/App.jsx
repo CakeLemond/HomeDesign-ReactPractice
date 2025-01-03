@@ -4,8 +4,7 @@ import Section1 from "./components/Section1";
 import Section2 from "./components/Section2";
 import BentoSection from "./components/BentoSection";
 import Footer from "./components/Footer";
-import { useEffect } from "react";
-import Lenis from "@studio-freight/lenis";
+
 function App() {
   return (
     <>

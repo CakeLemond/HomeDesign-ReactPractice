@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "..//assets/images/Section3.jpg";
+import Image from "..//assets/RezisedImg/Section3.jpg";
 import Button from "./Button";
 
 import { FaArrowRightLong } from "react-icons/fa6";

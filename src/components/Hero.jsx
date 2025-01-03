@@ -1,11 +1,10 @@
 import React from "react";
-import Image from "..//assets/images/Hero.jpg";
-import SmallImage from "..//assets/images/Small.jpg";
+import Image from "..//assets/RezisedImg/Hero.jpg";
+import SmallImage from "..//assets/RezisedImg/Small.jpg";
 import { IoTriangle } from "react-icons/io5";
 import Button from "./Button";
 import Wrapper from "./wrapper";
 import { FaArrowRightLong } from "react-icons/fa6";
-import NewButton from "./NewButton";
 const Hero = () => {
   return (
     <div
